@@ -1,8 +1,8 @@
-package org.dummy.library.config.kafka;
+package org.dummy.kafka.config;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
-import org.dummy.library.kafka.dto.KafkaSubRequestDto;
+import org.dummy.kafka.dto.KafkaSubRequestDto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

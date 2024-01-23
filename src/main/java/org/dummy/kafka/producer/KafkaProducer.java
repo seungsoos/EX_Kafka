@@ -1,8 +1,8 @@
-package org.dummy.library.config.kafka;
+package org.dummy.kafka.producer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.dummy.library.kafka.dto.KafkaPubRequestDto;
+import org.dummy.kafka.dto.KafkaPubRequestDto;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 

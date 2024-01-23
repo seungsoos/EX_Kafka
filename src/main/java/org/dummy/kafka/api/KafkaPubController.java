@@ -1,10 +1,10 @@
-package org.dummy.library.kafka;
+package org.dummy.kafka.api;
 
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.dummy.library.config.kafka.KafkaProducer;
-import org.dummy.library.kafka.dto.KafkaPubRequestDto;
+import org.dummy.kafka.dto.KafkaPubRequestDto;
+import org.dummy.kafka.producer.KafkaProducer;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

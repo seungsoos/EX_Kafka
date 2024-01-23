@@ -1,7 +1,7 @@
-package org.dummy.library.config.kafka;
+package org.dummy.kafka.consumer;
 
 import lombok.extern.slf4j.Slf4j;
-import org.dummy.library.kafka.dto.KafkaSubRequestDto;
+import org.dummy.kafka.dto.KafkaSubRequestDto;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.listener.adapter.ConsumerRecordMetadata;
 import org.springframework.kafka.support.Acknowledgment;
